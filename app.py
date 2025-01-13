@@ -4,6 +4,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+import creds
 
 
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
@@ -13,7 +14,7 @@ similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 
 def fetch_poster(movie_id):
-    response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=c187f369debe8cf88b245c002ee2685a&language=en-US'.format(movie_id))
+    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?{creds.api_key}')
     data = response.json()
     return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
 
