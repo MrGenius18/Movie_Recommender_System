@@ -6,10 +6,10 @@ import pandas as pd
 import requests
 
 
-movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
+movies_dict = pickle.load(open('pkl files/movies_dict.pkl', 'rb'))
 df = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+similarity = pickle.load(open('pkl files/similarity.pkl', 'rb'))
 
 api_key = 'api_key=c187f369debe8cf88b245c002ee2685a&language=en-US'
 
