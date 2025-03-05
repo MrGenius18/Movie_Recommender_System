@@ -68,7 +68,7 @@ A simple **`Movie Recommender System`** built with Streamlit. It suggests movies
 
 <h2 align="left">✨ Demo</h2>
 
-![Movie Recommender System Screenshot](https://github.com/MrGenius18/Movie_Recommender_System/blob/99c474f9472bfbf5ed405f7b063aa7360c633446/app%20demo.png)
+![Movie Recommender System Screenshot](https://github.com/MrGenius18/Movie_Recommender_System/blob/b2ed15d03b33e6c9207da528e63b2443aa4c8c5b/extra%20materials/app%20demo.png)
 
 ---
 
